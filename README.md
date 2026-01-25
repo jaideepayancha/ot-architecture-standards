@@ -109,4 +109,4 @@ So plants and vendors can browse standards without Git access.
 ## 📞 Ownership
 
 SCADA Architecture Team  
-Lead: <Your Name / Group>
+Lead: Jaideep Ayancha
