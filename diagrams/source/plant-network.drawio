@@ -1,0 +1,46 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Plant Network Segmentation" id="ICCR7CSTZKhS9_fdbwzb">
+    <mxGraphModel dx="1544" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cJyyGn3ctcRWqYv-xvpz-1" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Level 0/1&#xa;Machines &amp; PLCs" vertex="1">
+          <mxGeometry height="100" width="350" x="230" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="cJyyGn3ctcRWqYv-xvpz-2" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Level 2&#xa;Cell / Area SCADA" vertex="1">
+          <mxGeometry height="100" width="350" x="230" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="cJyyGn3ctcRWqYv-xvpz-3" parent="1" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Level 3&#xa;Site Operations" vertex="1">
+          <mxGeometry height="100" width="350" x="230" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="cJyyGn3ctcRWqYv-xvpz-4" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Level 3.5&#xa;Industrial DMZ" vertex="1">
+          <mxGeometry height="100" width="350" x="230" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="cJyyGn3ctcRWqYv-xvpz-5" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Level 4&#xa;Enterprise IT" vertex="1">
+          <mxGeometry height="100" width="350" x="230" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="cJyyGn3ctcRWqYv-xvpz-6" parent="1" style="shape=hexagon;fillColor=#ffffff;strokeColor=#000000;" value="Firewall" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="cJyyGn3ctcRWqYv-xvpz-7" parent="1" style="shape=hexagon;fillColor=#ffffff;strokeColor=#000000;" value="Firewall" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="cJyyGn3ctcRWqYv-xvpz-8" parent="1" style="shape=hexagon;fillColor=#ffffff;strokeColor=#000000;" value="Firewall" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="cJyyGn3ctcRWqYv-xvpz-9" edge="1" parent="1" source="cJyyGn3ctcRWqYv-xvpz-1" style="endArrow=block;strokeWidth=2;" target="cJyyGn3ctcRWqYv-xvpz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cJyyGn3ctcRWqYv-xvpz-10" edge="1" parent="1" source="cJyyGn3ctcRWqYv-xvpz-2" style="endArrow=block;strokeWidth=2;" target="cJyyGn3ctcRWqYv-xvpz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cJyyGn3ctcRWqYv-xvpz-11" edge="1" parent="1" source="cJyyGn3ctcRWqYv-xvpz-3" style="endArrow=block;strokeWidth=2;" target="cJyyGn3ctcRWqYv-xvpz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cJyyGn3ctcRWqYv-xvpz-12" edge="1" parent="1" source="cJyyGn3ctcRWqYv-xvpz-4" style="endArrow=block;strokeWidth=2;" target="cJyyGn3ctcRWqYv-xvpz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

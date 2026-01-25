@@ -1,0 +1,37 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="MQTT Sparkplug Namespace" id="vy15d_6k4xpkJ4LYoJpd">
+    <mxGraphModel dx="772" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fe3F3PGZ0bE68vSGL2az-1" parent="1" style="rounded=1;fillColor=#dae8fc;" value="Enterprise" vertex="1">
+          <mxGeometry height="60" width="220" x="230" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fe3F3PGZ0bE68vSGL2az-2" parent="1" style="rounded=1;fillColor=#d5e8d4;" value="Site / Plant" vertex="1">
+          <mxGeometry height="60" width="220" x="230" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="fe3F3PGZ0bE68vSGL2az-3" parent="1" style="rounded=1;fillColor=#fff2cc;" value="Area / Line" vertex="1">
+          <mxGeometry height="60" width="220" x="230" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="fe3F3PGZ0bE68vSGL2az-4" parent="1" style="rounded=1;fillColor=#f8cecc;" value="Edge Node / Device" vertex="1">
+          <mxGeometry height="60" width="220" x="230" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="fe3F3PGZ0bE68vSGL2az-5" parent="1" style="rounded=1;fillColor=#e1d5e7;" value="Tag / Metric" vertex="1">
+          <mxGeometry height="60" width="220" x="230" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="fe3F3PGZ0bE68vSGL2az-6" edge="1" parent="1" source="fe3F3PGZ0bE68vSGL2az-1" style="endArrow=block;" target="fe3F3PGZ0bE68vSGL2az-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe3F3PGZ0bE68vSGL2az-7" edge="1" parent="1" source="fe3F3PGZ0bE68vSGL2az-2" style="endArrow=block;" target="fe3F3PGZ0bE68vSGL2az-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe3F3PGZ0bE68vSGL2az-8" edge="1" parent="1" source="fe3F3PGZ0bE68vSGL2az-3" style="endArrow=block;" target="fe3F3PGZ0bE68vSGL2az-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe3F3PGZ0bE68vSGL2az-9" edge="1" parent="1" source="fe3F3PGZ0bE68vSGL2az-4" style="endArrow=block;" target="fe3F3PGZ0bE68vSGL2az-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
