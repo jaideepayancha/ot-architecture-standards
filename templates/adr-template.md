@@ -1,20 +1,38 @@
-# ADR-000X
-Name
+# ADR-XXXX: Title
 
 ## Status
+
 Proposed | Approved | Deprecated
 
 ## Context
-What problem are we solving?
+
+Describe the business and technical drivers.
 
 ## Decision
+
 What was decided?
 
 ## Alternatives Considered
-What else was evaluated?
+
+1. Option A
+2. Option B
 
 ## Consequences
-Positive and negative outcomes.
 
-## Date
-YYYY-MM-DD
+### Positive
+
+-
+
+### Negative
+
+-
+
+## Security Impact
+
+## Operational Impact
+
+## Approval
+
+- OT Architecture:
+- Cybersecurity:
+- Operations:

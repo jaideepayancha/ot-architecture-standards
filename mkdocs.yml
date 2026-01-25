@@ -1,0 +1,76 @@
+site_name: SCADA Architecture & IIoT Standards
+site_description: Enterprise SCADA, IIoT, and Network Architecture Best Practices
+site_author: Jaideep Ayancha
+
+repo_name: ot-architecture-standards
+repo_url: https://github.com/jaideepayancha/ot-architecture-standards
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+
+nav:
+  - Home: index.md
+
+  - Architecture:
+      - Overview: architecture/overview.md
+      - Network Topology: architecture/network-topology.md
+      - Security Zones (IEC 62443): architecture/security-zones.md
+      - Data Flows: architecture/data-flows.md
+
+  - SCADA Standards:
+      - Ignition Standards: scada/ignition-standards.md
+      - Template Design: scada/template-design.md
+      - Alarming Philosophy: scada/alarming.md
+      - Naming Conventions: scada/naming-conventions.md
+
+  - IIoT & Data:
+      - MQTT Topics: iiot/mqtt-topics.md
+      - Edge Gateways: iiot/edge-gateways.md
+      - Historian Integration: iiot/historian-integration.md
+
+  - How-To Guides:
+      - Add New Plant: how-to/add-new-plant.md
+      - Vendor Onboarding: how-to/vendor-onboarding.md
+      - Dashboard Deployment: how-to/dashboard-deployment.md
+
+  - Architecture Decisions:
+      - ADR Index: adr/index.md
+      - ADR-0001 Use MQTT: adr/0001-use-mqtt.md
