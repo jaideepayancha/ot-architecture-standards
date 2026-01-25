@@ -1,34 +1,33 @@
-site_name: SCADA Architecture & IIoT Standards
-site_description: Enterprise SCADA, IIoT, and Network Architecture Best Practices
+site_name: SCADA & OT Architecture Standards
+site_description: Enterprise standards for Industrial Automation, SCADA, IIoT, and OT Cybersecurity
 site_author: Jaideep Ayancha
+site_url: https://jaideepayancha.github.io/scada-architecture-standards/
 
-repo_name: ot-architecture-standards
-repo_url: https://github.com/jaideepayancha/ot-architecture-standards
+repo_name: jaideepayancha/scada-architecture-standards
+repo_url: https://github.com/jaideepayancha/scada-architecture-standards
 edit_uri: edit/main/docs/
-
-docs_dir: docs
-site_dir: site
 
 theme:
   name: material
+  language: en
   features:
-    - navigation.instant
-    - navigation.tracking
     - navigation.tabs
+    - navigation.sections
     - navigation.top
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.code.copy
   palette:
     - scheme: default
-      primary: blue
-      accent: orange
+      primary: blue grey
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      primary: blue
-      accent: orange
+      primary: blue grey
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -39,38 +38,67 @@ plugins:
 markdown_extensions:
   - admonition
   - attr_list
+  - def_list
   - footnotes
+  - tables
   - toc:
       permalink: true
   - pymdownx.superfences
   - pymdownx.details
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Home: index.md
 
-  - Architecture:
-      - Overview: architecture/overview.md
-      - Network Topology: architecture/network-topology.md
-      - Security Zones (IEC 62443): architecture/security-zones.md
-      - Data Flows: architecture/data-flows.md
+  - Network Architecture:
+      - Purdue Model Overview: network/purdue-model.md
+      - VLAN & Segmentation: network/vlan-segmentation.md
+      - Firewall Zones & Conduits: network/firewalls.md
+      - Redundancy & High Availability: network/redundancy.md
+      - Plant to Enterprise Connectivity: network/plant-enterprise.md
 
-  - SCADA Standards:
-      - Ignition Standards: scada/ignition-standards.md
-      - Template Design: scada/template-design.md
-      - Alarming Philosophy: scada/alarming.md
-      - Naming Conventions: scada/naming-conventions.md
+  - Ignition / SCADA Standards:
+      - System Architecture: scada/architecture.md
+      - Tag Structure & Naming: scada/tag-standards.md
+      - Template & UI Standards: scada/ui-ux.md
+      - Alarm Management: scada/alarms.md
+      - Historian Strategy: scada/historian.md
+      - Redundancy & DR: scada/redundancy-dr.md
 
-  - IIoT & Data:
-      - MQTT Topics: iiot/mqtt-topics.md
-      - Edge Gateways: iiot/edge-gateways.md
-      - Historian Integration: iiot/historian-integration.md
+  - IIoT & Edge:
+      - Edge Gateway Architecture: iiot/edge-architecture.md
+      - MQTT & Sparkplug: iiot/mqtt-sparkplug.md
+      - Data Modeling: iiot/data-model.md
+      - Store & Forward: iiot/store-forward.md
+      - Device Management: iiot/device-management.md
 
-  - How-To Guides:
-      - Add New Plant: how-to/add-new-plant.md
-      - Vendor Onboarding: how-to/vendor-onboarding.md
-      - Dashboard Deployment: how-to/dashboard-deployment.md
+  - Cloud Integration:
+      - Reference Architecture: cloud/reference.md
+      - Azure Ingestion: cloud/azure.md
+      - AWS Ingestion: cloud/aws.md
+      - GCP Ingestion: cloud/gcp.md
+      - Security Patterns: cloud/security.md
 
-  - Architecture Decisions:
-      - ADR Index: adr/index.md
-      - ADR-0001 Use MQTT: adr/0001-use-mqtt.md
+  - OT Cybersecurity:
+      - Defense in Depth: security/defense-in-depth.md
+      - ISA/IEC 62443 Mapping: security/iec62443.md
+      - Identity & Access: security/iam.md
+      - Patch Management: security/patching.md
+      - Incident Response: security/incident-response.md
+
+  - Standards & Governance:
+      - Vendor Standards: governance/vendors.md
+      - Change Management: governance/change-management.md
+      - Documentation Requirements: governance/documentation.md
+      - FAT / SAT Guidelines: governance/fat-sat.md
+
+  - Templates & Diagrams:
+      - Network Diagrams: templates/network-diagrams.md
+      - SCADA Templates: templates/scada-templates.md
+      - Edge Config Templates: templates/edge-templates.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jaideepayancha
