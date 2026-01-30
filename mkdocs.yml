@@ -51,52 +51,62 @@ markdown_extensions:
 nav:
   - Home: index.md
 
-  - Network Architecture:
-      - Purdue Model Overview: network/purdue-model.md
-      - VLAN & Segmentation: network/vlan-segmentation.md
-      - Firewall Zones & Conduits: network/firewalls.md
-      - Redundancy & High Availability: network/redundancy.md
-      - Plant to Enterprise Connectivity: network/plant-enterprise.md
+  - Core Architecture:
+      - Overview: architecture/overview.md
+      - Network Topology: architecture/network-topology.md
+      - VLAN & IP Standards: architecture/vlan-ip-standards.md
+      - Firewall Standards: architecture/firewall-standards.md
+      - Network Redundancy: architecture/network-redundancy.md
+      - Data Flows: architecture/data-flows.md
+      - Remote Access: architecture/remote-access.md
 
-  - Ignition / SCADA Standards:
-      - System Architecture: scada/architecture.md
-      - Tag Structure & Naming: scada/tag-standards.md
-      - Template & UI Standards: scada/ui-ux.md
-      - Alarm Management: scada/alarms.md
-      - Historian Strategy: scada/historian.md
-      - Redundancy & DR: scada/redundancy-dr.md
+  - SCADA & Ignition:
+      - Ignition Standards: scada/ignition-standards.md
+      - Project Structure: scada/project-structure.md
+      - Tag Standards: scada/tag-standards.md
+      - Template Design: scada/template-design.md
+      - Alarming Standards: scada/alarming.md
+      - Database Standards: scada/database-standards.md
+      - Naming Conventions: scada/naming-conventions.md
+      - Performance Tuning: scada/performance.md
+      - Deployment Guide: scada/deployment.md
 
-  - IIoT & Edge:
-      - Edge Gateway Architecture: iiot/edge-architecture.md
-      - MQTT & Sparkplug: iiot/mqtt-sparkplug.md
-      - Data Modeling: iiot/data-model.md
-      - Store & Forward: iiot/store-forward.md
-      - Device Management: iiot/device-management.md
+  - IIoT & Data Strategy:
+      - Edge Gateways: iiot/edge-gateways.md
+      - MQTT Topics: iiot/mqtt-topics.md
+      - Broker Architecture: iiot/broker-architecture.md
+      - Data Modeling: iiot/data-modeling.md
+      - Data Quality: iiot/data-quality.md
+      - Historian Integration: iiot/historian-integration.md
+      - Store & Forward: iiot/store-and-forward.md
+      - Cloud Ingestion: iiot/cloud-ingestion.md
+      - Analytics Architecture: iiot/analytics-architecture.md
 
-  - Cloud Integration:
-      - Reference Architecture: cloud/reference.md
-      - Azure Ingestion: cloud/azure.md
-      - AWS Ingestion: cloud/aws.md
-      - GCP Ingestion: cloud/gcp.md
-      - Security Patterns: cloud/security.md
-
-  - OT Cybersecurity:
-      - Defense in Depth: security/defense-in-depth.md
-      - ISA/IEC 62443 Mapping: security/iec62443.md
-      - Identity & Access: security/iam.md
+  - Security & Compliance:
+      - Security Zones: architecture/security-zones.md
+      - Asset Inventory: security/asset-inventory.md
+      - Identity & Access: security/identity-access.md
+      - Secure Remote Access: security/secure-remote-access.md
+      - Zones & Conduits: security/zones-and-conduits.md
       - Patch Management: security/patching.md
+      - Backup & Recovery: security/backup-recovery.md
       - Incident Response: security/incident-response.md
+      - Governance: security/governance.md
+      - ISA/IEC 62443 Compliance: security/compliance.md
 
-  - Standards & Governance:
-      - Vendor Standards: governance/vendors.md
-      - Change Management: governance/change-management.md
-      - Documentation Requirements: governance/documentation.md
-      - FAT / SAT Guidelines: governance/fat-sat.md
+  - Governance & Standards:
+      - Project Governance: architecture/governance.md
+      - Diagram Standards: architecture/diagram-standards.md
+      - Vendor Onboarding: how-to/vendor-onboarding.md
 
-  - Templates & Diagrams:
-      - Network Diagrams: templates/network-diagrams.md
-      - SCADA Templates: templates/scada-templates.md
-      - Edge Config Templates: templates/edge-templates.md
+  - ADRs (Architectural Decisions):
+      - ADR Overview: adr/index.md
+      - ADR 0001: Use MQTT: adr/0001-use-mqtt.md
+
+  - How-To Guides:
+      - Add New Plant: how-to/add-new-plant.md
+      - Dashboard Deployment: how-to/dashboard-deployment.md
+      - Network Validation: how-to/network-validation.md
 
 extra:
   social:
